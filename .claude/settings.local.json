@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy:*)",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\short\\\\go\\\\index.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\best\\\\go\\\\go.html\")",
+      "Bash(dir:*)",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\long2\\\\index.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\long4\\\\go\\\\index.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\aff\\\\aff_details\\\\aff\\\\afftools.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\upsell1.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\contact.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\Privacy policy.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\Return Policy.html\")",
+      "Bash(start \"\" \"D:\\\\TrustedNutraProducts\\\\QuickBurnBHB\\\\v3\\\\Terms & Conditions.html\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd QuickBurnBHB v2 and v3 with correct network branding\n\n- v3: All pages use ClickBank \\(removed BuyGoods/Digistore24 refs\\)\n- v2: All pages use BuyGoods \\(removed ClickBank/Digistore24 refs\\)\n- Updated testimonial images, product label, logo\n- Fixed afftools page: removed Upsell 4, verified all links\n- Replaced checkout URLs, tracking scripts, disclaimers, trust badges\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git credential-manager:*)",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)",
+      "Bash(where:*)",
+      "Bash(\"C:/Program Files/Git/mingw64/bin/git-credential-manager.exe\" github list)",
+      "Bash(\"C:/Program Files/Git/cmd/git.exe\" -C D:/TrustedNutraProducts push quickburnbhb main)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git reset:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd QuickBurnBHB v2 \\(BuyGoods\\) and v3 \\(ClickBank\\) with correct network branding\n\n- V2: All pages reference BuyGoods only\n- V3: All pages reference ClickBank only\n- Updated testimonial images, product label, afftools page\n- Removed Digistore24 references from both versions\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(GIT_TERMINAL_PROMPT=0 git push:*)",
+      "Bash(echo:*)",
+      "Bash(\"C:/Program Files/Git/mingw64/bin/git-credential-manager.exe\" get)",
+      "Bash(git branch:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
