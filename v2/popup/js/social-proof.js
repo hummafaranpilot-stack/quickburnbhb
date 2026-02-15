@@ -51,9 +51,9 @@ var customerStates = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA'
 ];
 var spBase = window.socialProofBase || '';
 var customerProducts = [
-  { quantity: '2', image: spBase + 'lib/img/prod1.png', label: '2' },
-  { quantity: '7', image: spBase + 'lib/img/6-bottles.png', label: '6+1' },
-  { quantity: '4', image: spBase + 'lib/img/3-bottle-buy-btn.png', label: '4' }
+  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' },
+  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' },
+  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' }
 ];
 function updateSocial() {
   var rCustomerFirst = customerFirst[Math.floor(Math.random() * customerFirst.length)];
