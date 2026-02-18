@@ -51,9 +51,15 @@ var customerStates = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA'
 ];
 var spBase = window.socialProofBase || '';
 var customerProducts = [
-  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' },
-  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' },
-  { quantity: '1', image: spBase + 'single_bottle.webp', label: '1' }
+  { quantity: '1', image: spBase + 'lib/img/1_bottle_qb.png', label: '1' },
+  { quantity: '1', image: spBase + 'lib/img/1_bottle_qb.png', label: '1' },
+  { quantity: '1', image: spBase + 'lib/img/1_bottle_qb.png', label: '1' },
+  { quantity: '2', image: spBase + 'lib/img/2-bottles-qb.webp', label: '2' },
+  { quantity: '2', image: spBase + 'lib/img/2-bottles-qb.webp', label: '2' },
+  { quantity: '3', image: spBase + 'lib/img/3-bottles-qb.webp', label: '3' },
+  { quantity: '3', image: spBase + 'lib/img/3-bottles-qb.webp', label: '3' },
+  { quantity: '6', image: spBase + 'lib/img/6-bottles-qb.webp', label: '6' },
+  { quantity: '7', image: spBase + 'lib/img/7-bottles-qb.webp', label: '7' }
 ];
 function updateSocial() {
   var rCustomerFirst = customerFirst[Math.floor(Math.random() * customerFirst.length)];
