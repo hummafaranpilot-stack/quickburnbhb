@@ -1234,6 +1234,39 @@
             }
         }
 
+        /* Product Label Section */
+        .product-label-section {
+            padding: 40px 20px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .product-label-section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            color: #4A148C;
+            margin-bottom: 20px;
+        }
+
+        .product-label-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 0 auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .product-label-section {
+                padding: 30px 15px;
+            }
+            .product-label-section h2 {
+                font-size: 22px;
+            }
+        }
+
     </style>
 </head>
 
@@ -1360,6 +1393,14 @@
                 <h4>Brain Energy</h4>
                 <p>Mental vitality</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Product Label Section -->
+    <section class="product-label-section">
+        <div class="container">
+            <h2>Supplement Facts</h2>
+            <img src="Assets/label.jpg" class="product-label-img" alt="SynaptoFlow Product Label">
         </div>
     </section>
 
