@@ -1316,10 +1316,9 @@
     <section class="hero-section">
         <div class="hero-content container">
             <span class="wait-badge">Add Daily Use Products to Your Order!</span>
-            <!-- BG-COMPLIANCE: Removed FREE mentions and reworded (original: "FREE! FREE! FREE!" + "Just Pay Minor Shipping Charges" + "FREE Trial Offer") -->
-            <h1 class="hero-title"><span class="free-text">FREE! FREE! FREE!</span></h1>
-            <p class="hero-subtitle">Just Pay Minor <span class="highlight">Shipping Charges</span></p>
-            <span class="trial-badge">FREE Trial Offer</span>
+            <h1 class="hero-title"><span class="free-text">Special Offer!</span></h1>
+            <p class="hero-subtitle">Try SynaptoFlow <span class="highlight">Today</span></p>
+            <span class="trial-badge">Trial Offer</span>
         </div>
     </section>
 
@@ -1353,9 +1352,8 @@
                                 <input type="checkbox" id="subscribe-checkbox">
                                 <label for="subscribe-checkbox">Subscribe & Go Hassle Free</label>
                             </div>
-                            <!-- BG-COMPLIANCE: Changed $0/bottle + $19.99 shipping → $19.99/bottle + Free US Shipping (original: $0 /Bottle, + $19.99 Shipping, TOTAL $19.99, subscription $69+Shipping) -->
                             <div class="mt-product-price">
-                                <h4 class="mt-display-price">$0</h4>
+                                <h4 class="mt-display-price">$19.99</h4>
                                 <div class="mt-price-info">
                                     <p>/Bottle</p>
                                 </div>
@@ -1370,11 +1368,11 @@
                             </div>
                             <div class="mt-savings-badge">YOU SAVE $159!</div>
 
-                            <a href="https://www.checkout-ds24.com/answer/yes?template=light" class="mt-buy-now-btn"
+                            <a href="https://www.checkout-ds24.com/answer/yes?template=light&product=PLACEHOLDER" class="mt-buy-now-btn"
                                 id="buy-btn-trial">
                                 <img src="lib/img/buy-now2.webp" alt="Buy Now" id="buy-img-trial">
                             </a>
-                            <p class="mt-shipping-text">+ $19.99 Shipping</p>
+                            <span class="mt-cancel-badge" style="display:block; margin-top:8px;">Cancel Subscription Anytime!</span>
                             <p class="mt-total-line">TOTAL: <span class="mt-strikethrough">$179</span> <span
                                     class="mt-final-price">$19.99</span></p>
                             <div class="mt-payment-icons"><img src="lib/img/cards.webp" alt="Payment Methods"></div>
@@ -1480,9 +1478,8 @@
 
     <!-- Bottom CTA Banner -->
     <div class="bottom-cta">
-        <!-- BG-COMPLIANCE: Removed "$19.99 shipping" wording (original: "Try SynaptoFlow for just $19.99 shipping!") -->
         <p>Don't miss this <span class="highlight">exclusive trial offer</span>! Try SynaptoFlow for just <span
-                class="highlight">$19.99 shipping</span>!</p>
+                class="highlight">$19.99</span>!</p>
         <a href="https://www.digistore24.com/answer/no" class="no-thanks-link">No thanks, I'll pass on this exclusive
             offer</a>
     </div>
@@ -1542,9 +1539,9 @@
             const buyBtn = document.getElementById('buy-btn-trial');
             const subscriptionInfo = document.getElementById('sub-info-trial');
 
-            // URLs for subscription and one-time purchase
-            const subscribeUrl = "#";
-            const oneTimeUrl = "#";
+            // URLs for subscription and one-time purchase (replace PLACEHOLDER with actual Digistore product IDs)
+            const subscribeUrl = "https://www.checkout-ds24.com/answer/yes?template=light&product=PLACEHOLDER_SUBSCRIPTION";
+            const oneTimeUrl = "https://www.checkout-ds24.com/answer/yes?template=light&product=PLACEHOLDER";
 
             checkbox.addEventListener('change', function () {
                 if (this.checked) {

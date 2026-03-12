@@ -483,76 +483,7 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
-        /* Reviews Section */
-        .reviews-section {
-            padding: 60px 20px;
-            background: #fff;
-        }
-
-        .reviews-header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .reviews-header h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 28px;
-            font-weight: 800;
-            color: #00695c;
-            margin-bottom: 10px;
-        }
-
-        .reviews-header .stars {
-            color: #00897b;
-            font-size: 24px;
-            letter-spacing: 3px;
-        }
-
-        .reviews-grid {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            flex-wrap: wrap;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .review-card {
-            flex: 1 1 280px;
-            max-width: 320px;
-            background: #f0faf9;
-            border-radius: 15px;
-            padding: 25px;
-            position: relative;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .review-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-        }
-
-        .review-stars {
-            color: #00897b;
-            font-size: 16px;
-            margin-bottom: 12px;
-            letter-spacing: 2px;
-        }
-
-        .review-text {
-            font-size: 15px;
-            color: #444;
-            line-height: 1.7;
-            margin-bottom: 15px;
-            font-style: italic;
-        }
-
-        .review-author {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 14px;
-            color: #00695c;
-        }
+        /* (Reviews section removed for compliance) */
 
         .verified-badge {
             font-size: 11px;
@@ -560,6 +491,28 @@
             font-weight: 600;
             display: block;
             margin-top: 3px;
+        }
+
+        /* Product Label Section */
+        .product-label-section {
+            padding: 40px 20px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .product-label-section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            color: #00695c;
+            margin-bottom: 20px;
+        }
+
+        .product-label-img {
+            max-width: 500px;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
         /* Bottom CTA Banner */
@@ -690,13 +643,8 @@
                 flex: 1 1 120px;
             }
 
-            .reviews-header h2 {
+            .product-label-section h2 {
                 font-size: 22px;
-            }
-
-            .review-card {
-                flex: 1 1 100%;
-                max-width: 100%;
             }
 
             .bottom-cta p {
@@ -881,38 +829,12 @@
                 font-size: 11px;
             }
 
-            /* Reviews Mobile */
-            .reviews-section {
-                padding: 40px 15px;
+            .product-label-section {
+                padding: 30px 15px;
             }
 
-            .reviews-header h2 {
+            .product-label-section h2 {
                 font-size: 18px;
-            }
-
-            .reviews-header .stars {
-                font-size: 20px;
-            }
-
-            .reviews-grid {
-                gap: 15px;
-            }
-
-            .review-card {
-                padding: 20px 15px;
-            }
-
-            .review-stars {
-                font-size: 14px;
-            }
-
-            .review-text {
-                font-size: 13px;
-                line-height: 1.6;
-            }
-
-            .review-author {
-                font-size: 13px;
             }
 
             /* Bottom CTA Mobile */
@@ -1280,36 +1202,11 @@
         </div>
     </section>
 
-    <!-- Reviews Section -->
-    <section class="reviews-section">
+    <!-- Product Label Section -->
+    <section class="product-label-section">
         <div class="container">
-            <div class="reviews-header">
-                <h2>What Our Customers Say</h2>
-                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            </div>
-
-            <div class="reviews-grid">
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"My dentist noticed the difference! My gums are healthier and my breath stays fresh all day. Orabiome Pro is now part of my daily routine."</p>
-                    <span class="review-author">- Michelle T.</span>
-                    <span class="verified-badge">&#10003; Verified Buyer</span>
-                </div>
-
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"I've tried so many products for bad breath. Orabiome Pro actually works from the inside out. My confidence is through the roof now!"</p>
-                    <span class="review-author">- Robert K.</span>
-                    <span class="verified-badge">&#10003; Verified Buyer</span>
-                </div>
-
-                <div class="review-card">
-                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <p class="review-text">"My teeth look noticeably whiter after just 3 weeks. I love that it's natural probiotics supporting my oral health instead of harsh chemicals."</p>
-                    <span class="review-author">- Sandra L.</span>
-                    <span class="verified-badge">&#10003; Verified Buyer</span>
-                </div>
-            </div>
+            <h2>Supplement Facts</h2>
+            <img src="Assets/orabiome_label.jpg" class="product-label-img" alt="Orabiome Pro Product Label">
         </div>
     </section>
 
@@ -1335,9 +1232,6 @@
         </p>
         <p class="footer-disclaimer">
             Statements on this website have not been evaluated by the Food and Drug Administration. Products are not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication, or have a medical condition, consult your physician before using our products.
-        </p>
-        <p class="footer-disclaimer">
-            Testimonials, case studies, and examples found on this page are results that have been forwarded to us by users of Orabiome Pro products and related products are not intended to represent or guarantee that anyone will achieve the same or similar results.
         </p>
     </footer>
 
